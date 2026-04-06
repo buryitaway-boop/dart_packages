@@ -130,7 +130,7 @@ public enum SignInWithAppleError {
                 errorCode = "authorization-error/deviceNotConfiguredForPasskeyCreation"
 #endif
 
-            @unknown default:
+            default:
                 print("[SignInWithApplePlugin]: Unknown authorization error code: \(code)");
             }
             
